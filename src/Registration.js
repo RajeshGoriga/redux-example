@@ -45,6 +45,7 @@ const Registration = (props) => {
       <input type="password" value={password} onChange={onPasswordChange} />
       <button onClick={onSubmit}>Register</button>
       <a href="/login">login</a>
+      <a href="/users">users</a>
     </div>
   );
 };
